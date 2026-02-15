@@ -3,7 +3,7 @@
 > AI-Powered Commerce Intelligence Copilot for Indian MSMEs
 
 **Team:** XphoraAI (Beta Up Your Mind!)  
-**Members:** Suchi Bansal, Aakashdeep Srivastava, Vishalika  
+**Members:** Suchi Bansal, Aakashdeep Srivastava, Vishalika Choraria
 **Hackathon:** AI for Bharat 2026 — Retail, Commerce & Marketplace AI Track  
 **Powered by:** AWS
 

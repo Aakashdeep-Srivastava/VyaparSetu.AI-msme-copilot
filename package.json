@@ -1,0 +1,32 @@
+{
+  "name": "vyaparsetu.ai-msme-copilot",
+  "version": "1.0.0",
+  "description": "> AI-Powered Commerce Intelligence Copilot for Indian MSMEs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:ui": "npx playwright test --ui",
+    "test:headed": "npx playwright test --headed",
+    "test:api": "npx playwright test e2e/01-api-health.spec.ts e2e/10-api-integration.spec.ts",
+    "test:landing": "npx playwright test e2e/02-landing-page.spec.ts",
+    "test:onboard": "npx playwright test e2e/03-onboard-ramesh.spec.ts e2e/04-onboard-lakshmi.spec.ts e2e/05-onboard-priya.spec.ts",
+    "test:chat": "npx playwright test e2e/07-chat-flow.spec.ts",
+    "test:dashboard": "npx playwright test e2e/08-dashboard.spec.ts",
+    "test:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakashdeep-Srivastava/VyaparSetu.AI-msme-copilot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aakashdeep-Srivastava/VyaparSetu.AI-msme-copilot/issues"
+  },
+  "homepage": "https://github.com/Aakashdeep-Srivastava/VyaparSetu.AI-msme-copilot#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}

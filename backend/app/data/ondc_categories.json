@@ -1,0 +1,263 @@
+{
+  "categories": [
+    {
+      "l1": "Home & Decor",
+      "l1_code": "HD",
+      "subcategories": [
+        {
+          "l2": "Metalware",
+          "l2_code": "HD-MW",
+          "items": [
+            {"l3": "Brass Decoratives", "l3_code": "HD-MW-BD", "hsn": "7418", "attributes": ["material", "finish", "weight", "dimensions"]},
+            {"l3": "Copper Utensils", "l3_code": "HD-MW-CU", "hsn": "7418", "attributes": ["material", "capacity", "weight"]},
+            {"l3": "Iron Craft", "l3_code": "HD-MW-IC", "hsn": "7326", "attributes": ["material", "finish", "weight", "dimensions"]},
+            {"l3": "Silver Artifacts", "l3_code": "HD-MW-SA", "hsn": "7114", "attributes": ["material", "purity", "weight", "dimensions"]}
+          ]
+        },
+        {
+          "l2": "Candles & Holders",
+          "l2_code": "HD-CH",
+          "items": [
+            {"l3": "Candle Holders", "l3_code": "HD-CH-CH", "hsn": "7418", "attributes": ["material", "finish", "height", "weight"]},
+            {"l3": "Aromatic Candles", "l3_code": "HD-CH-AC", "hsn": "3406", "attributes": ["fragrance", "burn_time", "weight", "wax_type"]},
+            {"l3": "Diya & Oil Lamps", "l3_code": "HD-CH-DL", "hsn": "7418", "attributes": ["material", "capacity", "weight", "finish"]}
+          ]
+        },
+        {
+          "l2": "Furnishings",
+          "l2_code": "HD-FU",
+          "items": [
+            {"l3": "Cushion Covers", "l3_code": "HD-FU-CC", "hsn": "6304", "attributes": ["fabric", "dimensions", "closure_type", "wash_care"]},
+            {"l3": "Curtains", "l3_code": "HD-FU-CT", "hsn": "6303", "attributes": ["fabric", "dimensions", "pattern", "wash_care"]},
+            {"l3": "Table Runners", "l3_code": "HD-FU-TR", "hsn": "6302", "attributes": ["fabric", "dimensions", "pattern", "wash_care"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Fashion",
+      "l1_code": "FA",
+      "subcategories": [
+        {
+          "l2": "Ethnic Wear",
+          "l2_code": "FA-EW",
+          "items": [
+            {"l3": "Silk Sarees", "l3_code": "FA-EW-SS", "hsn": "5007", "attributes": ["fabric", "weave_type", "zari_type", "length", "width", "occasion"]},
+            {"l3": "Handloom Sarees", "l3_code": "FA-EW-HS", "hsn": "5208", "attributes": ["fabric", "weave_type", "length", "width", "origin"]},
+            {"l3": "Kurta Sets", "l3_code": "FA-EW-KS", "hsn": "6206", "attributes": ["fabric", "size", "sleeve_type", "occasion", "wash_care"]},
+            {"l3": "Lehengas", "l3_code": "FA-EW-LH", "hsn": "6204", "attributes": ["fabric", "work_type", "size", "occasion", "components"]}
+          ]
+        },
+        {
+          "l2": "Accessories",
+          "l2_code": "FA-AC",
+          "items": [
+            {"l3": "Handcrafted Jewelry", "l3_code": "FA-AC-HJ", "hsn": "7117", "attributes": ["material", "stone_type", "finish", "occasion"]},
+            {"l3": "Leather Belts", "l3_code": "FA-AC-LB", "hsn": "4203", "attributes": ["material", "width", "buckle_type", "size"]},
+            {"l3": "Stoles & Dupattas", "l3_code": "FA-AC-SD", "hsn": "6214", "attributes": ["fabric", "dimensions", "work_type", "wash_care"]}
+          ]
+        },
+        {
+          "l2": "Footwear",
+          "l2_code": "FA-FW",
+          "items": [
+            {"l3": "Kolhapuri Chappals", "l3_code": "FA-FW-KC", "hsn": "6403", "attributes": ["material", "size", "sole_type", "origin"]},
+            {"l3": "Juttis & Mojaris", "l3_code": "FA-FW-JM", "hsn": "6403", "attributes": ["material", "size", "embroidery_type", "origin"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Food & Beverages",
+      "l1_code": "FB",
+      "subcategories": [
+        {
+          "l2": "Spices",
+          "l2_code": "FB-SP",
+          "items": [
+            {"l3": "Organic Spices", "l3_code": "FB-SP-OS", "hsn": "0904", "attributes": ["type", "certification", "origin", "shelf_life", "packaging"]},
+            {"l3": "Whole Spices", "l3_code": "FB-SP-WS", "hsn": "0908", "attributes": ["type", "origin", "grade", "shelf_life", "packaging"]},
+            {"l3": "Ground Spices", "l3_code": "FB-SP-GS", "hsn": "0910", "attributes": ["type", "origin", "mesh_size", "shelf_life", "packaging"]},
+            {"l3": "Spice Blends", "l3_code": "FB-SP-SB", "hsn": "0910", "attributes": ["blend_type", "ingredients", "shelf_life", "packaging"]}
+          ]
+        },
+        {
+          "l2": "Pickles & Preserves",
+          "l2_code": "FB-PP",
+          "items": [
+            {"l3": "Traditional Pickles", "l3_code": "FB-PP-TP", "hsn": "2001", "attributes": ["variety", "ingredients", "shelf_life", "packaging", "certification"]},
+            {"l3": "Chutneys", "l3_code": "FB-PP-CH", "hsn": "2103", "attributes": ["variety", "ingredients", "shelf_life", "packaging"]},
+            {"l3": "Jams & Preserves", "l3_code": "FB-PP-JP", "hsn": "2007", "attributes": ["fruit_type", "sugar_content", "shelf_life", "packaging"]}
+          ]
+        },
+        {
+          "l2": "Snacks & Sweets",
+          "l2_code": "FB-SS",
+          "items": [
+            {"l3": "Traditional Sweets", "l3_code": "FB-SS-TS", "hsn": "1704", "attributes": ["variety", "ingredients", "shelf_life", "packaging", "allergens"]},
+            {"l3": "Namkeen & Savories", "l3_code": "FB-SS-NS", "hsn": "1905", "attributes": ["variety", "ingredients", "shelf_life", "packaging"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Art & Craft",
+      "l1_code": "AC",
+      "subcategories": [
+        {
+          "l2": "Metal Art",
+          "l2_code": "AC-MA",
+          "items": [
+            {"l3": "Metal Art", "l3_code": "AC-MA-MA", "hsn": "8306", "attributes": ["material", "technique", "dimensions", "weight", "origin"]},
+            {"l3": "Dhokra Art", "l3_code": "AC-MA-DA", "hsn": "8306", "attributes": ["material", "technique", "dimensions", "weight", "origin"]},
+            {"l3": "Bell Metal Craft", "l3_code": "AC-MA-BM", "hsn": "7419", "attributes": ["material", "dimensions", "weight", "sound_quality"]}
+          ]
+        },
+        {
+          "l2": "Textile Art",
+          "l2_code": "AC-TA",
+          "items": [
+            {"l3": "Textile Art", "l3_code": "AC-TA-TA", "hsn": "5805", "attributes": ["fabric", "technique", "dimensions", "origin"]},
+            {"l3": "Block Print Fabric", "l3_code": "AC-TA-BP", "hsn": "5208", "attributes": ["fabric", "print_type", "dimensions", "origin"]},
+            {"l3": "Embroidered Panels", "l3_code": "AC-TA-EP", "hsn": "5810", "attributes": ["base_fabric", "embroidery_type", "dimensions", "origin"]}
+          ]
+        },
+        {
+          "l2": "Pottery & Ceramics",
+          "l2_code": "AC-PC",
+          "items": [
+            {"l3": "Blue Pottery", "l3_code": "AC-PC-BP", "hsn": "6912", "attributes": ["type", "dimensions", "glaze", "origin"]},
+            {"l3": "Terracotta", "l3_code": "AC-PC-TC", "hsn": "6913", "attributes": ["type", "dimensions", "finish", "origin"]},
+            {"l3": "Ceramic Tableware", "l3_code": "AC-PC-CT", "hsn": "6911", "attributes": ["type", "material", "dimensions", "microwave_safe"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Electronics",
+      "l1_code": "EL",
+      "subcategories": [
+        {
+          "l2": "Components & Accessories",
+          "l2_code": "EL-CA",
+          "items": [
+            {"l3": "LED Lighting", "l3_code": "EL-CA-LL", "hsn": "9405", "attributes": ["wattage", "color_temperature", "lumens", "voltage"]},
+            {"l3": "Cables & Connectors", "l3_code": "EL-CA-CC", "hsn": "8544", "attributes": ["type", "length", "specification", "certification"]},
+            {"l3": "PCB Assemblies", "l3_code": "EL-CA-PA", "hsn": "8534", "attributes": ["type", "layers", "dimensions", "specification"]}
+          ]
+        },
+        {
+          "l2": "Solar Products",
+          "l2_code": "EL-SP",
+          "items": [
+            {"l3": "Solar Panels", "l3_code": "EL-SP-SP", "hsn": "8541", "attributes": ["wattage", "type", "dimensions", "efficiency", "certification"]},
+            {"l3": "Solar Lanterns", "l3_code": "EL-SP-SL", "hsn": "9405", "attributes": ["lumens", "battery_capacity", "charge_time", "certification"]}
+          ]
+        },
+        {
+          "l2": "IoT Devices",
+          "l2_code": "EL-ID",
+          "items": [
+            {"l3": "Smart Sensors", "l3_code": "EL-ID-SS", "hsn": "9025", "attributes": ["sensor_type", "range", "connectivity", "power_source"]},
+            {"l3": "Smart Controllers", "l3_code": "EL-ID-SC", "hsn": "8537", "attributes": ["protocol", "channels", "voltage", "connectivity"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Health & Beauty",
+      "l1_code": "HB",
+      "subcategories": [
+        {
+          "l2": "Ayurvedic Products",
+          "l2_code": "HB-AY",
+          "items": [
+            {"l3": "Herbal Skincare", "l3_code": "HB-AY-HS", "hsn": "3304", "attributes": ["ingredients", "skin_type", "volume", "certification", "shelf_life"]},
+            {"l3": "Herbal Haircare", "l3_code": "HB-AY-HH", "hsn": "3305", "attributes": ["ingredients", "hair_type", "volume", "certification", "shelf_life"]},
+            {"l3": "Health Supplements", "l3_code": "HB-AY-HS", "hsn": "2106", "attributes": ["ingredients", "dosage", "certification", "shelf_life"]}
+          ]
+        },
+        {
+          "l2": "Organic Products",
+          "l2_code": "HB-OP",
+          "items": [
+            {"l3": "Organic Products", "l3_code": "HB-OP-OP", "hsn": "3401", "attributes": ["ingredients", "certification", "volume", "shelf_life"]},
+            {"l3": "Essential Oils", "l3_code": "HB-OP-EO", "hsn": "3301", "attributes": ["plant_source", "extraction_method", "volume", "purity"]},
+            {"l3": "Natural Soaps", "l3_code": "HB-OP-NS", "hsn": "3401", "attributes": ["ingredients", "weight", "fragrance", "skin_type"]}
+          ]
+        },
+        {
+          "l2": "Traditional Wellness",
+          "l2_code": "HB-TW",
+          "items": [
+            {"l3": "Yoga Accessories", "l3_code": "HB-TW-YA", "hsn": "9506", "attributes": ["material", "dimensions", "thickness", "eco_friendly"]},
+            {"l3": "Meditation Aids", "l3_code": "HB-TW-MA", "hsn": "9506", "attributes": ["type", "material", "dimensions"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Sports & Fitness",
+      "l1_code": "SF",
+      "subcategories": [
+        {
+          "l2": "Traditional Sports",
+          "l2_code": "SF-TS",
+          "items": [
+            {"l3": "Cricket Equipment", "l3_code": "SF-TS-CE", "hsn": "9506", "attributes": ["type", "material", "size", "weight", "grade"]},
+            {"l3": "Kabaddi Gear", "l3_code": "SF-TS-KG", "hsn": "9506", "attributes": ["type", "material", "size"]},
+            {"l3": "Carrom Boards", "l3_code": "SF-TS-CB", "hsn": "9504", "attributes": ["size", "wood_type", "finish", "certification"]}
+          ]
+        },
+        {
+          "l2": "Fitness Equipment",
+          "l2_code": "SF-FE",
+          "items": [
+            {"l3": "Resistance Bands", "l3_code": "SF-FE-RB", "hsn": "9506", "attributes": ["resistance_level", "material", "length"]},
+            {"l3": "Dumbbells & Weights", "l3_code": "SF-FE-DW", "hsn": "9506", "attributes": ["weight", "material", "coating", "grip_type"]}
+          ]
+        },
+        {
+          "l2": "Outdoor Sports",
+          "l2_code": "SF-OS",
+          "items": [
+            {"l3": "Camping Gear", "l3_code": "SF-OS-CG", "hsn": "6306", "attributes": ["type", "material", "capacity", "weight", "waterproof_rating"]},
+            {"l3": "Trekking Accessories", "l3_code": "SF-OS-TA", "hsn": "9506", "attributes": ["type", "material", "weight", "durability"]}
+          ]
+        }
+      ]
+    },
+    {
+      "l1": "Toys & Games",
+      "l1_code": "TG",
+      "subcategories": [
+        {
+          "l2": "Traditional Toys",
+          "l2_code": "TG-TT",
+          "items": [
+            {"l3": "Wooden Toys", "l3_code": "TG-TT-WT", "hsn": "9503", "attributes": ["wood_type", "paint_type", "age_group", "dimensions", "safety_cert"]},
+            {"l3": "Channapatna Toys", "l3_code": "TG-TT-CT", "hsn": "9503", "attributes": ["wood_type", "lacquer_type", "age_group", "dimensions", "gi_tag"]},
+            {"l3": "Cloth Dolls", "l3_code": "TG-TT-CD", "hsn": "9503", "attributes": ["fabric", "filling", "age_group", "dimensions", "wash_care"]}
+          ]
+        },
+        {
+          "l2": "Board Games",
+          "l2_code": "TG-BG",
+          "items": [
+            {"l3": "Strategy Games", "l3_code": "TG-BG-SG", "hsn": "9504", "attributes": ["players", "age_group", "material", "play_time"]},
+            {"l3": "Traditional Board Games", "l3_code": "TG-BG-TB", "hsn": "9504", "attributes": ["game_type", "material", "players", "age_group", "origin"]}
+          ]
+        },
+        {
+          "l2": "Educational Toys",
+          "l2_code": "TG-ET",
+          "items": [
+            {"l3": "STEM Kits", "l3_code": "TG-ET-SK", "hsn": "9503", "attributes": ["subject", "age_group", "components", "difficulty_level"]},
+            {"l3": "Puzzle Sets", "l3_code": "TG-ET-PS", "hsn": "9503", "attributes": ["type", "pieces", "age_group", "material"]},
+            {"l3": "Learning Cards", "l3_code": "TG-ET-LC", "hsn": "4901", "attributes": ["subject", "card_count", "age_group", "language"]}
+          ]
+        }
+      ]
+    }
+  ]
+}

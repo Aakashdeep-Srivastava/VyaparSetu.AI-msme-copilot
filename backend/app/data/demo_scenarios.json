@@ -1,0 +1,207 @@
+{
+  "scenarios": [
+    {
+      "id": "ramesh_brass",
+      "persona": {
+        "name": "Ramesh Kumar",
+        "location": "Moradabad, Uttar Pradesh",
+        "lat": 28.8386,
+        "lon": 78.7733,
+        "language": "hi",
+        "business_type": "B2C"
+      },
+      "input": {
+        "text_hi": "Main peetal ke decorative items banata hoon - flower vase, diya stand, candle holder",
+        "text_en": "I make brass decorative items - flower vase, diya stand, candle holder"
+      },
+      "expected_classification": {
+        "top_3": [
+          {"category": "Home & Decor > Metalware > Brass Decoratives", "code": "HD-MW-BD", "confidence": 0.923, "band": "GREEN"},
+          {"category": "Home & Decor > Candles & Holders", "code": "HD-CH-CH", "confidence": 0.051, "band": "RED"},
+          {"category": "Art & Craft > Metal Art", "code": "AC-MA-MA", "confidence": 0.026, "band": "RED"}
+        ],
+        "hsn": "7418",
+        "attributes": {
+          "material": "Brass (Peetal)",
+          "product_types": ["Flower Vase", "Diya Stand", "Candle Holder"],
+          "origin": "Moradabad",
+          "craft_type": "Handcrafted Metalware"
+        }
+      },
+      "expected_matching": {
+        "top_3": [
+          {
+            "platform": "Amazon Karigar",
+            "score": 0.89,
+            "factors": {"domain": 0.92, "geography": 0.85, "capacity": 0.88, "history": 0.91, "specialization": 0.82},
+            "explanation_hi": "Amazon Karigar aapke liye sabse accha hai kyunki yeh handmade brass items ke liye dedicated platform hai aur North India mein strong delivery network hai.",
+            "explanation_en": "Amazon Karigar is best for you because it's a dedicated platform for handmade brass items with a strong delivery network in North India."
+          },
+          {
+            "platform": "IndiaMART",
+            "score": 0.82,
+            "factors": {"domain": 0.78, "geography": 0.90, "capacity": 0.75, "history": 0.85, "specialization": 0.80},
+            "explanation_hi": "IndiaMART par bulk brass orders ki demand bahut zyada hai, B2B buyers directly contact karte hain.",
+            "explanation_en": "IndiaMART has high demand for bulk brass orders, with B2B buyers contacting directly."
+          },
+          {
+            "platform": "ONDC-Mystore",
+            "score": 0.78,
+            "factors": {"domain": 0.75, "geography": 0.82, "capacity": 0.90, "history": 0.65, "specialization": 0.78},
+            "explanation_hi": "ONDC-Mystore government-backed platform hai, zero commission hai aur sabhi categories mein kaam karta hai.",
+            "explanation_en": "ONDC-Mystore is a government-backed platform with zero commission that works across all categories."
+          }
+        ]
+      },
+      "expected_pricing": {
+        "product": "Brass Flower Vase",
+        "your_price": 450,
+        "category_median": 490,
+        "price_position": "8% below median",
+        "recommendation_hi": "Apni keemat ₹475 tak badhayein aur September se pehle Amazon par list karein. Diwali season mein 40% demand spike hota hai.",
+        "recommendation_en": "Increase price to ₹475 and list on Amazon before September. 40% demand spike during Diwali season.",
+        "geo_insight_hi": "Maharashtra aur Karnataka mein brass decoratives ki demand 23% QoQ badh rahi hai. Apna delivery area South India tak expand karein - competition kam hai aur margins zyada hain.",
+        "geo_insight_en": "Demand for brass decoratives is growing 23% QoQ in Maharashtra and Karnataka. Expand your delivery to South India - lower competition and higher margins.",
+        "demand_spike": "+40% Oct-Nov (Diwali)",
+        "expansion_regions": ["Maharashtra", "Karnataka", "Tamil Nadu"],
+        "expansion_growth": "23% QoQ"
+      }
+    },
+    {
+      "id": "lakshmi_silk",
+      "persona": {
+        "name": "Lakshmi Devi",
+        "location": "Varanasi, Uttar Pradesh",
+        "lat": 25.3176,
+        "lon": 82.9739,
+        "language": "hi",
+        "business_type": "B2C"
+      },
+      "input": {
+        "text_hi": "Banarasi silk saree banati hoon, zari work ke saath, shaadi ke liye",
+        "text_en": "I make Banarasi silk sarees with zari work, for weddings"
+      },
+      "expected_classification": {
+        "top_3": [
+          {"category": "Fashion > Ethnic Wear > Silk Sarees", "code": "FA-EW-SS", "confidence": 0.961, "band": "GREEN"},
+          {"category": "Fashion > Ethnic Wear > Handloom Sarees", "code": "FA-EW-HS", "confidence": 0.025, "band": "RED"},
+          {"category": "Art & Craft > Textile Art", "code": "AC-TA-TA", "confidence": 0.014, "band": "RED"}
+        ],
+        "hsn": "5007",
+        "attributes": {
+          "material": "Silk (Banarasi)",
+          "work_type": "Zari",
+          "occasion": "Wedding",
+          "origin": "Varanasi",
+          "craft_type": "Handloom Weaving"
+        }
+      },
+      "expected_matching": {
+        "top_3": [
+          {
+            "platform": "Myntra",
+            "score": 0.91,
+            "factors": {"domain": 0.95, "geography": 0.88, "capacity": 0.85, "history": 0.93, "specialization": 0.90},
+            "explanation_hi": "Myntra fashion ke liye India ka sabse bada platform hai aur Banarasi sarees ki bahut demand hai.",
+            "explanation_en": "Myntra is India's largest fashion platform with high demand for Banarasi sarees."
+          },
+          {
+            "platform": "Amazon Karigar",
+            "score": 0.84,
+            "factors": {"domain": 0.88, "geography": 0.82, "capacity": 0.80, "history": 0.85, "specialization": 0.82},
+            "explanation_hi": "Amazon Karigar par handloom products ki alag category hai jo customers ko attract karti hai.",
+            "explanation_en": "Amazon Karigar has a dedicated handloom category that attracts customers."
+          },
+          {
+            "platform": "Meesho",
+            "score": 0.79,
+            "factors": {"domain": 0.80, "geography": 0.85, "capacity": 0.78, "history": 0.72, "specialization": 0.75},
+            "explanation_hi": "Meesho Tier 2-3 cities mein bahut popular hai jahan saree ki demand sabse zyada hai.",
+            "explanation_en": "Meesho is very popular in Tier 2-3 cities where saree demand is highest."
+          }
+        ]
+      },
+      "expected_pricing": {
+        "product": "Banarasi Silk Saree (Zari Work)",
+        "your_price": 3200,
+        "category_median": 2800,
+        "price_position": "14% above median (premium segment)",
+        "recommendation_hi": "Aapki keemat premium segment mein sahi hai. Wedding season (Oct-Feb) mein listing badhayein. Zari work ki quality ke liye premium justified hai.",
+        "recommendation_en": "Your pricing is right for the premium segment. Increase listings during wedding season (Oct-Feb). Premium is justified for zari work quality.",
+        "geo_insight_hi": "Gujarat aur Rajasthan mein Banarasi sarees ki demand 18% QoQ badh rahi hai. In regions mein competition kam hai aur premium segment buyers zyada hain.",
+        "geo_insight_en": "Demand for Banarasi sarees is growing 18% QoQ in Gujarat and Rajasthan. These regions have lower competition and more premium segment buyers.",
+        "demand_spike": "+55% Oct-Feb (Wedding Season)",
+        "expansion_regions": ["Gujarat", "Rajasthan", "Maharashtra"],
+        "expansion_growth": "18% QoQ"
+      }
+    },
+    {
+      "id": "priya_spices",
+      "persona": {
+        "name": "Priya Menon",
+        "location": "Kochi, Kerala",
+        "lat": 9.9312,
+        "lon": 76.2673,
+        "language": "en",
+        "business_type": "B2B"
+      },
+      "input": {
+        "text_hi": "Hum organic kali mirch aur elaichi produce karte hain, export quality, FSSAI certified",
+        "text_en": "We produce organic black pepper and cardamom, export quality, FSSAI certified"
+      },
+      "expected_classification": {
+        "top_3": [
+          {"category": "Food & Beverages > Spices > Organic Spices", "code": "FB-SP-OS", "confidence": 0.947, "band": "GREEN"},
+          {"category": "Food & Beverages > Spices > Whole Spices", "code": "FB-SP-WS", "confidence": 0.035, "band": "RED"},
+          {"category": "Health & Beauty > Organic Products", "code": "HB-OP-OP", "confidence": 0.018, "band": "RED"}
+        ],
+        "hsn": "0904",
+        "attributes": {
+          "material": "Organic Spices",
+          "products": ["Black Pepper", "Cardamom"],
+          "certification": "FSSAI",
+          "quality": "Export Grade",
+          "origin": "Kerala"
+        }
+      },
+      "expected_matching": {
+        "top_3": [
+          {
+            "platform": "IndiaMART",
+            "score": 0.87,
+            "factors": {"domain": 0.85, "geography": 0.82, "capacity": 0.88, "history": 0.90, "specialization": 0.88},
+            "explanation_hi": "IndiaMART B2B ke liye sabse accha hai aur organic spices ki export demand bahut hai.",
+            "explanation_en": "IndiaMART is best for B2B with high export demand for organic spices."
+          },
+          {
+            "platform": "TradeIndia",
+            "score": 0.83,
+            "factors": {"domain": 0.82, "geography": 0.80, "capacity": 0.85, "history": 0.84, "specialization": 0.85},
+            "explanation_hi": "TradeIndia par international buyers directly connect hote hain, spices ke liye dedicated section hai.",
+            "explanation_en": "TradeIndia connects directly with international buyers and has a dedicated spices section."
+          },
+          {
+            "platform": "ExportersIndia",
+            "score": 0.79,
+            "factors": {"domain": 0.80, "geography": 0.78, "capacity": 0.82, "history": 0.76, "specialization": 0.82},
+            "explanation_hi": "ExportersIndia specifically export-focused platform hai jo FSSAI certified products ko priority deta hai.",
+            "explanation_en": "ExportersIndia is specifically an export-focused platform that prioritizes FSSAI certified products."
+          }
+        ]
+      },
+      "expected_pricing": {
+        "product": "Organic Black Pepper",
+        "your_price": 1200,
+        "category_median": 950,
+        "price_position": "26% above median (premium justified by organic certification)",
+        "recommendation_hi": "Organic certification ke wajah se premium pricing justified hai. Export markets mein demand 15% YoY badh rahi hai.",
+        "recommendation_en": "Premium pricing justified due to organic certification. Demand in export markets growing 15% YoY.",
+        "geo_insight_hi": "Delhi-NCR aur Mumbai mein organic spices ki demand 31% QoQ badh rahi hai. Metro cities mein health-conscious buyers ka segment tezi se badh raha hai.",
+        "geo_insight_en": "Demand for organic spices is growing 31% QoQ in Delhi-NCR and Mumbai. The health-conscious buyer segment in metro cities is expanding rapidly.",
+        "demand_spike": "+35% Sep-Dec (Festive Season)",
+        "expansion_regions": ["Delhi-NCR", "Mumbai", "Bangalore"],
+        "expansion_growth": "31% QoQ"
+      }
+    }
+  ]
+}

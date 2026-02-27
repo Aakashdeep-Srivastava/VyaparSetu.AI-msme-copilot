@@ -1,0 +1,160 @@
+{
+  "categories": {
+    "brass_decoratives": {
+      "category_path": "Home & Decor > Metalware > Brass Decoratives",
+      "products": {
+        "flower_vase": {"median_price": 490, "p25": 350, "p75": 650, "avg_price": 480, "sample_size": 234},
+        "diya_stand": {"median_price": 280, "p25": 180, "p75": 400, "avg_price": 290, "sample_size": 156},
+        "candle_holder": {"median_price": 350, "p25": 250, "p75": 500, "avg_price": 370, "sample_size": 189}
+      },
+      "demand_trends": {
+        "monthly": [
+          {"month": "Jan", "index": 85},
+          {"month": "Feb", "index": 80},
+          {"month": "Mar", "index": 90},
+          {"month": "Apr", "index": 95},
+          {"month": "May", "index": 88},
+          {"month": "Jun", "index": 82},
+          {"month": "Jul", "index": 87},
+          {"month": "Aug", "index": 105},
+          {"month": "Sep", "index": 120},
+          {"month": "Oct", "index": 155},
+          {"month": "Nov", "index": 140},
+          {"month": "Dec", "index": 110}
+        ],
+        "peak_season": "Oct-Nov (Diwali)",
+        "growth_yoy": 12.5
+      }
+    },
+    "silk_sarees": {
+      "category_path": "Fashion > Ethnic Wear > Silk Sarees",
+      "products": {
+        "banarasi_silk_saree": {"median_price": 2800, "p25": 1800, "p75": 4500, "avg_price": 3100, "sample_size": 412},
+        "kanchipuram_silk_saree": {"median_price": 3500, "p25": 2200, "p75": 5800, "avg_price": 3800, "sample_size": 328},
+        "tussar_silk_saree": {"median_price": 1950, "p25": 1200, "p75": 2800, "avg_price": 2050, "sample_size": 187}
+      },
+      "demand_trends": {
+        "monthly": [
+          {"month": "Jan", "index": 115},
+          {"month": "Feb", "index": 120},
+          {"month": "Mar", "index": 105},
+          {"month": "Apr", "index": 130},
+          {"month": "May", "index": 125},
+          {"month": "Jun", "index": 90},
+          {"month": "Jul", "index": 85},
+          {"month": "Aug", "index": 95},
+          {"month": "Sep", "index": 100},
+          {"month": "Oct", "index": 145},
+          {"month": "Nov", "index": 155},
+          {"month": "Dec", "index": 135}
+        ],
+        "peak_season": "Oct-Feb (Wedding Season & Festivals)",
+        "growth_yoy": 8.3
+      }
+    },
+    "organic_spices": {
+      "category_path": "Food & Beverages > Spices > Organic Spices",
+      "products": {
+        "black_pepper": {"median_price": 950, "p25": 720, "p75": 1300, "avg_price": 980, "sample_size": 567},
+        "cardamom": {"median_price": 2200, "p25": 1800, "p75": 2800, "avg_price": 2350, "sample_size": 423},
+        "turmeric_powder": {"median_price": 380, "p25": 250, "p75": 520, "avg_price": 395, "sample_size": 689}
+      },
+      "demand_trends": {
+        "monthly": [
+          {"month": "Jan", "index": 100},
+          {"month": "Feb", "index": 95},
+          {"month": "Mar", "index": 105},
+          {"month": "Apr", "index": 100},
+          {"month": "May", "index": 95},
+          {"month": "Jun", "index": 90},
+          {"month": "Jul", "index": 92},
+          {"month": "Aug", "index": 98},
+          {"month": "Sep", "index": 110},
+          {"month": "Oct", "index": 130},
+          {"month": "Nov", "index": 125},
+          {"month": "Dec", "index": 115}
+        ],
+        "peak_season": "Sep-Dec (Festive Season & Winter Demand)",
+        "growth_yoy": 15.2
+      }
+    },
+    "handloom_textiles": {
+      "category_path": "Fashion > Ethnic Wear > Handloom Sarees",
+      "products": {
+        "cotton_handloom_saree": {"median_price": 1200, "p25": 800, "p75": 1800, "avg_price": 1280, "sample_size": 345},
+        "handloom_stole": {"median_price": 650, "p25": 400, "p75": 950, "avg_price": 680, "sample_size": 278},
+        "handloom_bedsheet": {"median_price": 890, "p25": 600, "p75": 1300, "avg_price": 920, "sample_size": 198}
+      },
+      "demand_trends": {
+        "monthly": [
+          {"month": "Jan", "index": 95},
+          {"month": "Feb", "index": 90},
+          {"month": "Mar", "index": 100},
+          {"month": "Apr", "index": 110},
+          {"month": "May", "index": 105},
+          {"month": "Jun", "index": 88},
+          {"month": "Jul", "index": 85},
+          {"month": "Aug", "index": 120},
+          {"month": "Sep", "index": 115},
+          {"month": "Oct", "index": 135},
+          {"month": "Nov", "index": 125},
+          {"month": "Dec", "index": 105}
+        ],
+        "peak_season": "Aug-Nov (National Handloom Day to Diwali)",
+        "growth_yoy": 10.8
+      }
+    },
+    "wooden_furniture": {
+      "category_path": "Home & Decor > Furnishings > Wooden Furniture",
+      "products": {
+        "sheesham_coffee_table": {"median_price": 8500, "p25": 6000, "p75": 12000, "avg_price": 8900, "sample_size": 145},
+        "carved_wall_shelf": {"median_price": 2800, "p25": 1800, "p75": 4200, "avg_price": 3050, "sample_size": 212},
+        "wooden_storage_box": {"median_price": 1500, "p25": 900, "p75": 2200, "avg_price": 1580, "sample_size": 267}
+      },
+      "demand_trends": {
+        "monthly": [
+          {"month": "Jan", "index": 90},
+          {"month": "Feb", "index": 85},
+          {"month": "Mar", "index": 95},
+          {"month": "Apr", "index": 100},
+          {"month": "May", "index": 95},
+          {"month": "Jun", "index": 88},
+          {"month": "Jul", "index": 92},
+          {"month": "Aug", "index": 100},
+          {"month": "Sep", "index": 115},
+          {"month": "Oct", "index": 140},
+          {"month": "Nov", "index": 130},
+          {"month": "Dec", "index": 108}
+        ],
+        "peak_season": "Oct-Nov (Diwali Home Renovation)",
+        "growth_yoy": 9.5
+      }
+    },
+    "leather_goods": {
+      "category_path": "Fashion > Accessories > Leather Goods",
+      "products": {
+        "leather_wallet": {"median_price": 650, "p25": 400, "p75": 950, "avg_price": 680, "sample_size": 534},
+        "leather_messenger_bag": {"median_price": 2200, "p25": 1500, "p75": 3200, "avg_price": 2350, "sample_size": 312},
+        "leather_journal": {"median_price": 450, "p25": 280, "p75": 650, "avg_price": 470, "sample_size": 445}
+      },
+      "demand_trends": {
+        "monthly": [
+          {"month": "Jan", "index": 100},
+          {"month": "Feb", "index": 110},
+          {"month": "Mar", "index": 95},
+          {"month": "Apr", "index": 90},
+          {"month": "May", "index": 85},
+          {"month": "Jun", "index": 80},
+          {"month": "Jul", "index": 88},
+          {"month": "Aug", "index": 95},
+          {"month": "Sep", "index": 105},
+          {"month": "Oct", "index": 130},
+          {"month": "Nov", "index": 125},
+          {"month": "Dec", "index": 140}
+        ],
+        "peak_season": "Oct-Feb (Festive & Gifting Season)",
+        "growth_yoy": 11.2
+      }
+    }
+  }
+}
